@@ -6,4 +6,4 @@
 
 > How did you go about hiding elements initially?
 
-Your reply here...
+I changed the style to none so it is not appearing.
