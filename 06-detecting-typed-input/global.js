@@ -2,7 +2,7 @@
 window.addEventListener('load', function(){
     const name_field = document.getElementById("full_name");
   
-    name_field.addEventListener("keyup", function() {
+    name_field.addEventListener("input", function() {
     const greeting_div = document.getElementById("greeting");
     greeting_div.innerHTML = ("Hello there, " + name_field.value + "!");
   });
